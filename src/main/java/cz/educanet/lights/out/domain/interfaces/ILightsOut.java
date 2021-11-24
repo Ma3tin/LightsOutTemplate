@@ -1,4 +1,4 @@
-package cz.educanet.lights.out.domain.interfaces;
+    package cz.educanet.lights.out.domain.interfaces;
 
 public interface ILightsOut {
 
