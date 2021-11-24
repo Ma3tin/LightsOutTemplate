@@ -9,7 +9,6 @@ public class Game implements ILightsOut {
     private boolean[][] grid = new boolean[5][5];
 
     public Game() {
-        /*
         Random rd = new Random();
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid.length; j++) {
@@ -17,11 +16,6 @@ public class Game implements ILightsOut {
                 grid[i][j] = nbr % 2 == 0;
             }
         }
-         */
-
-        grid[0][0] = true;
-        grid[1][0] = true;
-        grid[0][1] = true;
     }
 
     @Override
